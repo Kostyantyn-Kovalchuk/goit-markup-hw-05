@@ -636,6 +636,11 @@ img {
   background: var(--main-background-color);
 }
 
+.overlay-container {
+  position: relative;
+  overflow: hidden;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -666,11 +671,6 @@ img {
 .products.link:hover .overlay,
 .products.link:focus .overlay {
   transform: translateY(0%);
-}
-
-.overlay-container {
-  position: relative;
-  overflow: hidden;
 }
 
 /* Footer */
