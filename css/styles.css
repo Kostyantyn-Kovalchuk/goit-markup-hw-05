@@ -149,11 +149,6 @@ img {
   color: var(--hover-color);
 }
 
-.portfolio.link {
-  position: relative;
-  color: var(--hover-color);
-}
-
 .studio.link::after {
   position: absolute;
   content: '';
@@ -164,6 +159,12 @@ img {
 
   background-color: var(--hover-color);
   border-radius: 2px;
+}
+
+.portfolio.link {
+  position: relative;
+
+  color: var(--hover-color);
 }
 
 .portfolio.link::after {
@@ -337,7 +338,6 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
