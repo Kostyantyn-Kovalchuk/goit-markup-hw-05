@@ -143,13 +143,13 @@ img {
   margin-right: 40px;
 }
 
-.studio {
+.studio.link {
   position: relative;
 
   color: var(--hover-color);
 }
 
-.studio::after {
+.studio.link::after {
   position: absolute;
   content: '';
   display: block;
