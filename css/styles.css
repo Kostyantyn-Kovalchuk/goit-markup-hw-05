@@ -143,10 +143,10 @@ img {
   margin-right: 40px;
 }
 
-.studio {
+.studio.link {
   position: relative;
 
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .studio::after {
@@ -163,7 +163,7 @@ img {
   border-radius: 2px;
 }
 
-.portfolio {
+.portfolio.link {
   position: relative;
 
   color: var(--hover-color);
@@ -314,7 +314,8 @@ img {
   color: var(--secondary-text-color);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-icon {
