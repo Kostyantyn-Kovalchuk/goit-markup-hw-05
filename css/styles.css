@@ -143,10 +143,10 @@ img {
   margin-right: 40px;
 }
 
-.studio.link {
+.studio {
   position: relative;
 
-  color: var(--hover-color);
+  color: #404bbf;
 }
 
 .studio::after {
